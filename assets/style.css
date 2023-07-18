@@ -20,7 +20,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
-    --icon-color:  #FB8200;
+    --icon-color: #FB8200;
 }
 
 /* ----------------header------------------ */
@@ -160,4 +160,42 @@ p {
     color: var(--secondary-color);
     font-size: 28px;
 
+}
+
+.iconstar {
+    width: 10px;
+    height: 10px;
+    color: var(--icon-color);
+    margin-right: 3px;
+    padding-right: 3px;
+}
+
+.content p {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.short-description {
+    width: 150px;
+
+}
+
+.gear {
+    width: 300px;
+    height: 257px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 150px 0px 150px;
+}
+
+.see-more p{
+    padding-right: 10px;
+    margin-top: 10px;
+    color: rgba(224, 44, 109, 0.87);
+    font-family:  'Poppins', sans-serif;
+    font-size: 16px;
 }
